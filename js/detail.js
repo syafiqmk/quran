@@ -19,8 +19,8 @@ $("document").ready(function() {
             // data ayat
             $.each(result.ayat, function(i, val) {
                 $("#surah-row").append(`
-                    <div class="col-md-7">
-                        <h5 class="text-end">${val.ar}</h5>
+                    <div class="col-md-7 my-4">
+                        <h5 class="text-end arab">${val.ar}</h5>
                         <h6>${val.tr}</h6>
                         <p>${val.idn}</p>
                     </div>
